@@ -1,0 +1,13 @@
+<?php
+/**
+ * Implementation of hook_form_alter()
+ */
+function tracker_form_alter(&$form, $form_state, $form_id) {
+  if ($form_id == 'views_exposed_form') {
+
+		//test
+		//dsm($form);
+	
+		$form['combine']['#size'] = 15; 
+  }
+}

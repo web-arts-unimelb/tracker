@@ -1,0 +1,3 @@
+name = Tracker 
+description = Tracker to track project issues 
+core = 7.x
